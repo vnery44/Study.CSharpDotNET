@@ -48,7 +48,7 @@ int n = int.Parse(Console.ReadLine());
 
 if (n >= 1 && n <= marcas.Count)
 {
-    Console.WriteLine($"A marca na posição {n} é: {marcas[n - 1]}"); //O -1 SERVINDO PARA O INDICE (PARA O USUARIO) COMEÇAR EM 1 E NÃO 0
+    Console.WriteLine($"A marca na posição {n} é: {marcas[n - 1]}"); //O -1 SERVINDO PARA O INDICE (PARA O USUARIO) COMEÇAR EM 1 E NÃO 0 
 }
 else
 {
