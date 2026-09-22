@@ -28,4 +28,5 @@ do
     }
 } while(true);
 
+
 Console.WriteLine("O jogo acabou. Você acertou o número secreto!");
