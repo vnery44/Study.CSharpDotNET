@@ -90,7 +90,7 @@ Console.WriteLine($"A soma dos elementos inteiros é: {somaDosElementos}");
 
 //SOLUÇÃO DO PROFESSOR ******************************************************
 
-List<int> numeros = new List<int> { 1, 2, 3, 4, 5 };
+List<int> numeros = new List<int> { 1, 2, 3, 4, 5 }; 
 int soma = 0;
 
 foreach (int numero in numeros)
@@ -99,4 +99,5 @@ foreach (int numero in numeros)
 }
 
 Console.WriteLine($"A soma dos elementos da lista é: {soma}");
+
 //***************************************************************************
