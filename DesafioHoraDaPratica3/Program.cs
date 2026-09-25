@@ -128,4 +128,5 @@ if (usuarios.ContainsKey(nomeUsuario) && usuarios[nomeUsuario] == senha)
     Console.WriteLine("Login bem-sucedido!");
 else
     Console.WriteLine("Nome de usuário ou senha incorretos.");
+
 //********************************************************************************************
