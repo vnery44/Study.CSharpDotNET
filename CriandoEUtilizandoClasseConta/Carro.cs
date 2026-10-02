@@ -27,7 +27,6 @@ class Carro
         Console.WriteLine($"Informações do carro: {this.Fabricante} {this.Modelo}, {this.QuantidadePortas} portas, {this.Ano}");
     }
 
-
     public void Acelerar()
     {
         Console.WriteLine("Acelerando...");
@@ -45,6 +44,7 @@ class Carro
             Velocidade = Velocidade - 5;
         }
     }
+
 
     public void Buzinar()
     {
