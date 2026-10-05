@@ -35,4 +35,5 @@
         }
     }
     public string ExibeInfosDoProduto => $"Informações do produto: {this.Marca} {this.Nome} {this.Preco} {this.Estoque}";
+
 }
